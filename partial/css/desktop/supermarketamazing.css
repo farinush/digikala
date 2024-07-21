@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.supermarketamazing {
+  width: 100%;
+  height: 115px;
+  .sub__supermarketamazing {
+    width: 1335px;
+    height: inherit;
+    background: rgb(216, 217, 217);
+    background: linear-gradient(
+      90deg,
+      rgba(216, 217, 217, 0.5662640056022409) 13%,
+      rgba(199, 205, 207, 0.7259278711484594) 100%
+    );
+    border-radius: 15px;
+    margin: auto;
+    .a__sub__supermarketamazing {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      width: inherit;
+      height: inherit;
+      .child1__a__sub__supermarketamazing {
+        width: 45%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        padding-left: 50px;
+        padding-right: 30px;
+        column-gap: 5px;
+
+        .sub1chid1__a__sub__supermarketamazing {
+          width: 20%;
+          height: 62px;
+          margin: auto;
+          box-sizing: border-box;
+          position: relative;
+          img {
+            width: 66px;
+            height: inherit;
+            object-fit: contain;
+            position: absolute;
+            right: 30px;
+          }
+        }
+        .sub2chid1__a__sub__supermarketamazing {
+          width: 50%;
+          height: 62px;
+          margin: auto;
+          box-sizing: border-box;
+          position: relative;
+          img {
+            width: 250px;
+            height: 28px;
+            position: absolute;
+            top: 18px;
+            right: 2px;
+          }
+        }
+        .sub3chid1__a__sub__supermarketamazing {
+          width: 30%;
+          height: 62px;
+          margin: auto;
+          box-sizing: border-box;
+          position: relative;
+          .takhfiffbox {
+            width: 112px;
+            height: 27px;
+            background-color: #029948;
+            border-radius: 12px;
+            position: absolute;
+            right: 5px;
+            top: 18px;
+            color: whitesmoke;
+            text-align: center;
+            font-family: iranyekanmedium;
+            font-size: 15px;
+            line-height: 30px;
+            span {
+              font-family: yekan;
+            }
+          }
+        }
+      }
+      .child2__a__sub__supermarketamazing {
+        width: 55%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        .subchild2__a__sub__supermarketamazing {
+          width: 78px;
+          height: 78px;
+          display: flex;
+          flex-flow: column wrap;
+          position: relative;
+          .image__subchild2__a__sub__supermarketamazing {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            img {
+              width: inherit;
+              height: inherit;
+              object-fit: contain;
+              border-radius: 50%;
+            }
+          }
+          .discount__subchild2__a__sub__supermarketamazing {
+            width: 34px;
+            height: 20px;
+            border-radius: 15px;
+            background-color: #ca3333;
+            color: whitesmoke;
+            font-family: yekan;
+            font-size: 11px;
+            font-weight: 600;
+            text-align: center;
+            line-height: 20px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+        .continue__child2__a__sub__supermarketamazing {
+          width: 145px;
+          height: 55px;
+          margin-right: 5px;
+          background-color: whitesmoke;
+          color: #029a49;
+          border-radius: 30px;
+          text-decoration: none;
+          text-align: center;
+          line-height: 50px;
+          position: relative;
+          
+          .child__continue__child2__a__sub__supermarketamazing {
+            width: 80px;
+            height: 20px;
+            font-family: iranyekanmedium;
+            font-size: 12px;
+            font-weight: 500;
+            position: absolute;
+            right: 20px;
+            top: 2px;
+            span {
+              font-family: yekan;
+              font-size: 12px;
+            }
+          }
+          svg {
+            position: absolute;
+            bottom: 20px;
+            left: 16px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.digiclub {
+  width: 100%;
+  height: 105px;
+  .subdigiclub {
+    width: 1340px;
+    height: 86px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    .logo_subdigiclub {
+      width: 35%;
+      height: inherit;
+
+      .a_logo_subdigiclub {
+        width: fit-content;
+        height: inherit;
+        display: block;
+        line-height: 80px;
+        padding-top: 20px;
+        padding-right: 30px;
+      }
+    }
+    .image_subdigiclub {
+      width: 65%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+      column-gap: 3px;
+      .child_image_subdigiclub {
+        width: 32%;
+        height: inherit;
+        .a_child_image_subdigiclub {
+          width: 100%;
+          height: 60px;
+          align-items: center;
+          display: flex;
+          flex-flow: row wrap;
+          padding-top: 14px;
+          text-decoration: none;
+          .emptypic {
+            width: 40%;
+            height: inherit;
+            background-color: #ffffff;
+            
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            .child_emptypic{
+                width: 95px;
+                height: 26px;
+                margin: 10px auto;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                svg{
+                    position: absolute;
+                    top: 2px;
+                    right: 5px;
+                }
+                span {
+                    color: #2b2b2b;
+                    font-family: iranyekanmedium;
+            font-size: 13px;
+            position: absolute;
+            right:30px;
+                  }
+            }
+          }
+          img {
+            width: 60%;
+            height: inherit;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+.border_empty {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.border_image {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

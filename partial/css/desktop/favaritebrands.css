@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.favaritebrands {
+  width: 100%;
+  height: 238px;
+  padding-top: 6px;
+  .child__favaritebrands {
+    width: 1340px;
+    height: 223px;
+    border: 1px solid rgb(214, 212, 212,0.7);
+    border-radius: 17px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    .child1__favaritebrands {
+      width: inherit;
+      height: 30%;
+      text-align: center;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .svg__favaritebrands{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        left: calc(50% + 95px);
+      }
+      span {
+        font-family: var(--font-family);
+        font-size: 22px;
+        width: 200px;
+        height: 34px;
+        display: block;
+        position: absolute;
+      }
+
+    }
+    .child2__favaritebrands {
+      width: inherit;
+      height: 70%;
+      .swiper {
+        width: 99%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide__story__favaritebrands {
+          width: 142px;
+          height: 118px;
+          margin: auto;
+          .a_swiper-slide__story__favaritebrands {
+            width: 141px;
+            height: 117px;
+            display: block;
+            padding: 1px;
+            margin: auto;
+            position: relative;
+            img {
+              width: 110px;
+              height: 110px;
+            }
+            .img__huge {
+              width: 100px;
+              height: 65px;
+              position: absolute;
+              top: calc(50% - 40px);
+              left: calc(50% - 100px / 2);
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hr_favaritebrands::after{
+    content: "";
+    width: 1px;
+    height: 122px;
+    background-color: lightgray;
+    opacity: 0.5;
+}

@@ -1,0 +1,100 @@
+.montakhab{
+    width: 100%;
+    height: 820px;
+    .sub_montakhab{
+        width: 1336px;
+        height: 813px;
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+        .text_sub_montakhab{
+            width: inherit;
+            height: 10%;
+            .a_text_sub_montakhab{
+                width: inherit;
+                height: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                font-family: iranyekanmedium;
+                font-size: 18px;
+                text-decoration: none;
+                color: #2b2b2b;
+                column-gap: 8px;
+            }
+        }
+        .image_sub_montakhab{
+            width: inherit;
+            height: 90%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            .column_image_sub_montakhab{
+                width: 218px;
+                height: 100%;
+                .row_column_image_sub_montakhab{
+                    width: inherit;
+                    height: 242px;
+                    .a_row_column_image_sub_montakhab{
+                        width: inherit;
+                        height: inherit;
+                        display: flex;
+                        flex-flow: column wrap;
+                        justify-content: center; 
+                        align-items: center;
+                        text-decoration: none;
+                        img{
+                            width: 150px;
+                            height: 150px;
+                            object-fit: cover;
+                            display: block;
+                            margin: auto;
+                        }
+                        .h5_h6_a_row_column_image_sub_montakhab{
+                            width: inherit;
+                            height: 33px;
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: space-around;
+                            
+                            h5{
+                                font-family: yekan;
+                                font-size: 13px;
+                                color: #2b2b2b;
+                            }
+                            h6{
+                                font-family: yekan;
+                                font-size: 12px;
+                                width: 15%;
+                                height: 17px;
+                                display: block;
+                        background-color: #d32f2e;
+                                border-radius: 15px;
+                                text-align: center;
+                                color: aliceblue;
+                            }
+                            
+                        }
+                        .h6_row{
+                            width: inherit;
+                            display: block;
+                            height: 26px;
+                            font-family: yekan;
+                            text-decoration: line-through;
+                            opacity: 0.5;
+                            color: #2b2b2b;
+                            display: flex;
+                            justify-content: flex-end;
+                            padding-left: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

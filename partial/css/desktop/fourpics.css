@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fourpics{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    .subfourpics{
+        width: 1341px;
+        height: inherit;
+        margin: 5px auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 13px;
+        .div__subfourpics{
+            width: 325px;
+            height: 243px;
+            .a__div__subfourpics{
+                width: 322px;
+                height: 241px;
+                display: block;
+                img{
+                    width: inherit;
+                    height: inherit;
+                    border-radius: 20px;
+                }
+            }
+        }
+    
+    }
+}
