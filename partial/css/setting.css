@@ -5,23 +5,27 @@
 }
 @font-face{
   font-family: iranyekanmedium;
-  src: url(../../fonts/fa/IRANYekanWeb-Medium.eot);
-  src: url(../../fonts/fa/IRANYekanWeb-Medium.ttf);
-  src: url(../../fonts/fa/IRANYekanWeb-Medium.woff);
-  src: url(../../fonts/fa/IRANYekanWeb-Medium.woff2);
+  src: url(../fonts/fa/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/fa/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/fa/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/fa/IRANYekanWeb-Medium.woff2);
   
 }
+
+@font-face{
+  font-family: yekan;
+src: url(../fonts/fa/YekanBakhFaNum-Regular.eot);
+src: url(../fonts/fa/YekanBakhFaNum-Regular.woff);
+src: url(../fonts/fa/YekanBakhFaNum-Regular.ttf);
+src: url(../fonts/fa/YekanBakhFaNum-Regular.woff2);
+
+}
+
+
 :root {
   --font-family: iranyekanmedium;
 }
-@font-face{
-  font-family: yekan;
-  src: url(../../fonts/fa/YekanBakhFaNum-Regular.eot);
-  src: url(../../fonts/fa/YekanBakhFaNum-Regular.ttf);
-  src: url(../../fonts/fa/YekanBakhFaNum-Regular.woff);
-  src: url(../../fonts/fa/YekanBakhFaNum-Regular.woff2);
-  
-}
+
 
 
 .wrapper {
@@ -47,3 +51,4 @@
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0;
 }
+

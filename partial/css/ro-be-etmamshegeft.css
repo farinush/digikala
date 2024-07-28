@@ -1,0 +1,181 @@
+.ro-be-etmam {
+  width: 100%;
+  height: 463px;
+  .sub-ro-be-etmam {
+    width: 1644px;
+    height: inherit;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    .text-sub-ro-be-etmam {
+      width: inherit;
+      height: 10%;
+      text-align: right;
+      font-family: var(--font-family);
+      font-size: 13px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      font-weight: 600;
+      column-gap: 9px;
+      margin-right: 6px;
+    }
+    .hr-ro-be-etmam {
+      width: 5%;
+      height: 3px;
+      background-color: red;
+    }
+    .swiper-sub-ro-be-etmam {
+      width: inherit;
+      height: 88%;
+      padding: 0 10px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .achild-swiper-slide-ro-be-etmam {
+          display: flex;
+          width: inherit;
+          height: inherit;
+          flex-flow: column wrap;
+          align-items: center;
+          text-decoration: none;
+          color: #2b2b2b;
+          .text-achild-swiper-ro-be-etmam {
+            width: inherit;
+            height: 30px;
+            margin-top: 15px; 
+            margin-bottom: 10px;
+          }
+          .image-achild-swiper-ro-be-etmam {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            width: inherit;
+            
+            justify-content: center;
+            img {
+              width: 150px;
+              height: 150px;
+              margin-bottom: 20px;
+            }
+            .p-swiper-ro-be-etmam {
+              font-family: var(--font-family);
+              font-size: 11px;
+              text-overflow: ellipsis;
+              white-space: wrap;
+              overflow: hidden;
+              height: 30px;
+              opacity: 0.7;
+            }
+            .mojodi{
+                display: flex;
+                width: inherit;
+                height: 26px;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                align-items: center;
+                padding-right: 30px;
+                font-family: var(--font-family);
+                font-size: 11px;
+                margin-bottom: 10px;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0;
+                    right: 5px;
+                    display: block;
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+            .price-ro-be-etmam {
+              width: 174px;
+              height: 33px;
+              display: flex;
+              flex-flow: row-reverse wrap;
+              justify-content: space-between !important;
+
+              .price {
+                width: 70%;
+                height: inherit;
+                font-family: yekan;
+                font-size: 13px;
+                position: relative;
+                text-align: left;
+                svg {
+                  position: absolute;
+                  top: 2px;
+                  left: -15px;
+                }
+              }
+              h6 {
+                width: 30%;
+                height: 17px;
+                font-family: yekan;
+                font-size: 12px;
+                background-color: #d32f2e;
+                font-weight: normal;
+                padding: 0 10px;
+                border-radius: 15px;
+                color: whitesmoke;
+                line-height: 18px;
+                font-weight: 600;
+              }
+            }
+            .pureprice-ro-be-etmam {
+              font-family: yekan;
+              font-size: 11px;
+              opacity: 0.4;
+              text-decoration: line-through;
+              margin-right: 100px;
+              margin-bottom: 15px;
+            }
+          }
+          .red-line-ro-be-etmam{
+            width: 80%;
+            height: 5px;
+            background-color: #f0f0f0;
+            border-radius: 15px ;
+            .child-red-line-ro-be-etmam{
+              width: 70%;
+              height: inherit;
+              background-color: #d32f2e;
+              border-radius: 20px ;
+            }
+          }
+          .text-after-redline{
+            font-family: yekan;
+            font-size: 12px;
+            color: #b2b5b8;
+            text-align: right;
+            margin-top: 13px;
+            margin-left: 80px;
+            font-weight: 600;
+            span{
+              color: #d32f2e;
+            }
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
