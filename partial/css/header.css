@@ -300,6 +300,10 @@ header {
             display: flex;
             align-items: center;
             column-gap: 5px;
+            
+          }
+          &:hover {
+            border-bottom: 1px solid #d82f4e;
           }
         }
       }
